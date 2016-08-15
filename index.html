@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+  <head>
+    <title>Trevize, web designer and integrator</title>
+   
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="" content="Webdesigner freelance pour site web et affiche, flyers etc... basé sur Bâle (Basel)">
+
+    <style>
+	
+	@font-face 
+	{
+	font-family: 'Conv_Welbut__';
+	src: url('fonts/Welbut__.eot');
+	src: url('fonts/Welbut__.woff') format('woff'), url('fonts/Welbut__.ttf') format('truetype'), url('fonts/Welbut__.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+    html, 
+	body 
+	{ 
+	padding: 0; margin: 0; 
+	font-family: Conv_Welbut__;
+	background: #222; 
+	color: #fff; 
+	font-size: 20pt; 
+	line-height: 1.5; 
+	padding: 2%; 
+	}
+	
+    h1 
+	{ 
+	margin: 0; 
+	padding: 0; 
+	}
+	
+    .teletype-prefix, 
+	.teletype-cursor 
+	{ 
+	color: #fff; 
+	}
+	
+    </style>
+	
+  </head>
+  
+  
+  <body>
+    <h1>Trevize - Desgin Web & Print</h1>
+
+    <p class="type-text" title="Ce site^1000 est en construction~19^2000 sera disponible très prochainement^1000~34^1000 sera cool^1000 \n# Je suis déjà disponible sur^2000 \n# hello@trevize.xyz^3000 \n# ^1000 \n# A bientôt !^2000"></p>
+	
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery.teletype.js"></script>
+    <script>
+    $( function() {
+      $( '.type-text' ).each( function() {
+        var items = $( this ).attr( 'title' ) + ';' + $( this ).text();
+        $( this ).empty().attr( 'title', '' ).teletype( {
+          text: $.map( items.split( '§' ), $.trim ),
+          typeDelay: 10,
+          backDelay: 20,
+          cursor: '▋',
+          delay: 3000,
+          preserve: false,
+          prefix: '# ',
+          loop: 0,
+		  
+		  
+	
+        } );
+      } );
+    } );
+	
+	
+	
+	
+    </script>
+        <script type="text/javascript">
+
+
+</script>
+  </body>
+</html>
