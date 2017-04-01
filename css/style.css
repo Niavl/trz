@@ -204,6 +204,10 @@ a {
 	padding: 70px 0 120px 0;
 }
 
+
+
+
+
 /*MES ARMES*/
 #separator1 {	
 	background: url(../img/code.jpg) no-repeat left fixed; /* ajouter fixed pour un parallaxe*/
@@ -454,6 +458,10 @@ a {
 	.icon{
 		font-size: 2em;
 	}
+	
+	.icon p{
+	font-size: 0.3em;	
+}
 	
 	.bouton-sm {
 		font-size: 0.6em;
