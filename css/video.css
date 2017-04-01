@@ -30,14 +30,14 @@ video{
 	background-color:rgba(23, 135, 146, 0.3);   /*mettre ici couleur rgba !*/
 }
 
-
+/*
 @media (max-width: 770px){
 		#bgvid{
 		display:none;
 	}
 	
 	#filtre{
-		background-color: rgba(23, 135, 146, 1);
+		
 	}
 	
 }
@@ -52,3 +52,5 @@ video{
 	}
 	
 }
+
+*/
