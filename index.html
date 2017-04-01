@@ -50,7 +50,7 @@
 <section id="section1" class="intro">
     <div class="container">		
 	
-				<video autoplay loop muted poster="img/trevize-bg.jpg" id="bgvid" class='fillWidth' >		
+				<video autoplay loop muted poster="img/trevize-cover.jpg" id="bgvid" class='fillWidth' >		
                     <source src="img/trevize.mp4" type="video/mp4">
 					<source src="img/trevize.webm" type="video/webm">				
 				</video>	
@@ -368,7 +368,7 @@ smoothScroll.init({
 <script>
 $(document).ready(function(){
   var screenWidth = $(window).width();
-  if (screenWidth < 770){
+  if (screenWidth < 769){
 		$('video').removeAttr('autoplay');
   } else {
   	$('video').attr('autoplay');

@@ -27,17 +27,19 @@ video{
 	height: 100%;
 	margin:0;
 	float: right;
-	background-color:rgba(23, 135, 146, 0.3);   /*mettre ici couleur rgba !*/
+
+	background: url(../img/carbon-fibre.png)repeat;
 }
 
-/*
-@media (max-width: 770px){
+
+@media (max-width: 768px){
 		#bgvid{
 		display:none;
 	}
 	
 	#filtre{
-		
+background-color:rgba(23, 135, 146, 1); 
+
 	}
 	
 }
@@ -48,9 +50,8 @@ video{
 	}
 	
 		#filtre{
-		background-color: rgba(23, 135, 146, 1);
+background-color:rgba(23, 135, 146, 1); 
 	}
 	
 }
 
-*/

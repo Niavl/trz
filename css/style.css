@@ -109,8 +109,8 @@ a {
 /*----------INTRODUCTION---------*/
 #section1 {
 	font-family: Conv_Welbut__;
-	background-color:rgba(23, 135, 146, 1);
-	background: url(../img/carbon-fibre.png)repeat;
+	background-color:rgba(23, 135, 146, 0.4);/*ici on gère que le filtre de la vidéo*/
+	
 	color:#fff;
 	height: 100%;
 }
@@ -433,6 +433,9 @@ a {
 	}
 }
 
+
+
+
 @media (min-width: 769px){
 	.bouton{
 		font-size: 0.7em;
@@ -523,9 +526,16 @@ a {
 		font-size: 45px;
 	}
 	
-	.caption p{
+		.caption p{
 	padding:5px;
+	}
 }
+
+
+@media (max-width: 768px){
+	.icon p{
+		display: none;
+	}
 }
 
 
@@ -535,10 +545,14 @@ a {
 	}	
 }
 
-@media(max-height: 535px){
+@media(max-height: 540px){
 	.intro .footer-more{
 		display: none;
 	}	
+	
+	.qrcode {
+		display:none;
+	}
 }
 
 @media(max-width: 769px){
