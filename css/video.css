@@ -1,0 +1,54 @@
+
+#bgvid{
+	position:fixed;
+	right:0;
+	bottom:0;
+	min-width:100%;
+	min-height:100%;
+	width:auto;
+	height:auto; 
+	z-index:-100;
+	overflow:hidden;
+	background:url() repeat;
+	background-size:cover;
+}
+
+video{
+	display:block;
+	}
+	
+
+#filtre{ 
+    position:absolute;
+    top:0px;
+	left:0px;
+    z-index:1;
+	width: 100%;
+	height: 100%;
+	margin:0;
+	float: right;
+	background-color:rgba(23, 135, 146, 0.3);   /*mettre ici couleur rgba !*/
+}
+
+
+@media (max-width: 770px){
+		#bgvid{
+		display:none;
+	}
+	
+	#filtre{
+		background-color: rgba(23, 135, 146, 1);
+	}
+	
+}
+
+@media (max-height: 535px){
+		#bgvid{
+		display:none;
+	}
+	
+		#filtre{
+		background-color: rgba(23, 135, 146, 1);
+	}
+	
+}
