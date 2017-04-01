@@ -298,8 +298,8 @@ a {
 
 /*----------PETITS BOUTONS (LANGUE)------------*/
 .bouton-sm {
-	background-color:transparent;
-	border:1px solid #ffffff;
+	background-color:#530D34;
+	border:1px solid #530D34;
 	cursor:pointer;
 	color:#ffffff;
 	padding:13px 20px;
