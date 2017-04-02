@@ -109,8 +109,7 @@ a {
 /*----------INTRODUCTION---------*/
 #section1 {
 	font-family: Conv_Welbut__;
-	background-color:rgba(23, 135, 146, 0.4);/*ici on gère que le filtre de la vidéo*/
-	
+	background-color:rgba(23, 135, 146, 0.35);/*ici on gère que le filtre de la vidéo*/
 	color:#fff;
 	height: 100%;
 }
@@ -303,7 +302,7 @@ a {
 /*----------PETITS BOUTONS (LANGUE)------------*/
 .bouton-sm {
 	background-color:#530D34;
-	border:1px solid #530D34;
+	border:1px solid #ffffff;
 	cursor:pointer;
 	color:#ffffff;
 	padding:13px 20px;
